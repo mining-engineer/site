@@ -1,0 +1,17 @@
+site/
+    .env
+    .gitignore
+    db.sqlite3
+    manage.py
+    project_structure.txt
+    README.md
+    requirements.txt
+    tree.py
+    core/
+        asgi.py
+        settings.py
+        urls.py
+        wsgi.py
+        __init__.py
+    static/
+    templates/
