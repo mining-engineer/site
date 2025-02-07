@@ -14,4 +14,14 @@ site/
         wsgi.py
         __init__.py
     static/
+        custom.js
     templates/
+        base.html
+        accounts/
+            login.html
+            register.html
+        includes/
+            custom-footer.html
+        pages/
+            contact.html
+            index.html
