@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8500:8500"
+    volumes:
+      - .:/app
+    environment:
+      - SECRET_KEY=your_secret_key
+      - BDHOST=your_bd_host
+      - DEBUG=1
+      - BDNAME=your_db_name
+      - BDUSER=your_db_user
+      - PASSWORD=your_db_password
+      - HOST=db

@@ -1,24 +1,75 @@
 site/
+    .dockerignore
     .env
     .gitignore
     db.sqlite3
+    docker-compose.yml
+    Dockerfile
     manage.py
     project_structure.txt
     README.md
     requirements.txt
     tree.py
+    account/
+        admin.py
+        apps.py
+        models.py
+        tests.py
+        urls.py
+        views.py
+        __init__.py
     core/
         asgi.py
         settings.py
         urls.py
         wsgi.py
         __init__.py
+    home/
+        admin.py
+        apps.py
+        models.py
+        tests.py
+        urls.py
+        views.py
+        __init__.py
     static/
         custom.js
+        dist/
+            css/
+                adminlte.css
+                adminlte.min.css
+            img/
+                AdminLTELogo.png
+                HomerLogo.png
+            js/
+                adminlte.min.js
+        plugins/
+            bootstrap/
+                js/
+                    bootstrap.bundle.min.js
+            fontawesome-free/
+                css/
+                    all.min.css
+                webfonts/
+                    fa-solid-900.ttf
+                    fa-solid-900.woff
+                    fa-solid-900.woff2
+            jquery/
+                jquery.min.js
+            overlayScrollbars/
+                css/
+                    OverlayScrollbars.min.css
     templates/
+        auth_base.html
         base.html
         accounts/
+            forgot-password.html
             login.html
+            password_change.html
+            password_change_done.html
+            password_reset_complete.html
+            password_reset_done.html
+            recover-password.html
             register.html
         includes/
             custom-footer.html
